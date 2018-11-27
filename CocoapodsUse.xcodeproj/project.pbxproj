@@ -15,6 +15,8 @@
 		110B9EF521ACD80F00448689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B9EF421ACD80F00448689 /* main.m */; };
 		110B9EFF21ACD80F00448689 /* CocoapodsUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B9EFE21ACD80F00448689 /* CocoapodsUseTests.m */; };
 		110B9F0A21ACD80F00448689 /* CocoapodsUseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B9F0921ACD80F00448689 /* CocoapodsUseUITests.m */; };
+		110B9F1C21AD149600448689 /* XYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B9F1B21AD149600448689 /* XYUtil.m */; };
+		110B9F1F21AD14A400448689 /* XYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B9F1E21AD14A400448689 /* XYRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		110B9F0521ACD80F00448689 /* CocoapodsUseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoapodsUseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110B9F0921ACD80F00448689 /* CocoapodsUseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoapodsUseUITests.m; sourceTree = "<group>"; };
 		110B9F0B21ACD80F00448689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110B9F1A21AD149600448689 /* XYUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYUtil.h; sourceTree = "<group>"; };
+		110B9F1B21AD149600448689 /* XYUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYUtil.m; sourceTree = "<group>"; };
+		110B9F1D21AD14A400448689 /* XYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYRouter.h; sourceTree = "<group>"; };
+		110B9F1E21AD14A400448689 /* XYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRouter.m; sourceTree = "<group>"; };
+		110B9F2021AD150300448689 /* CocoapodsUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoapodsUse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		110B9ED921ACD80C00448689 = {
 			isa = PBXGroup;
 			children = (
+				110B9F1721AD0F3E00448689 /* Classes */,
 				110B9EE421ACD80D00448689 /* CocoapodsUse */,
 				110B9EFD21ACD80F00448689 /* CocoapodsUseTests */,
 				110B9F0821ACD80F00448689 /* CocoapodsUseUITests */,
@@ -130,6 +138,34 @@
 				110B9F0B21ACD80F00448689 /* Info.plist */,
 			);
 			path = CocoapodsUseUITests;
+			sourceTree = "<group>";
+		};
+		110B9F1721AD0F3E00448689 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				110B9F2021AD150300448689 /* CocoapodsUse.h */,
+				110B9F1921AD144B00448689 /* Util */,
+				110B9F1821AD143A00448689 /* Router */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		110B9F1821AD143A00448689 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				110B9F1D21AD14A400448689 /* XYRouter.h */,
+				110B9F1E21AD14A400448689 /* XYRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		110B9F1921AD144B00448689 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				110B9F1A21AD149600448689 /* XYUtil.h */,
+				110B9F1B21AD149600448689 /* XYUtil.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +300,9 @@
 			files = (
 				110B9EEA21ACD80D00448689 /* ViewController.m in Sources */,
 				110B9EF521ACD80F00448689 /* main.m in Sources */,
+				110B9F1C21AD149600448689 /* XYUtil.m in Sources */,
 				110B9EE721ACD80D00448689 /* AppDelegate.m in Sources */,
+				110B9F1F21AD14A400448689 /* XYRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
