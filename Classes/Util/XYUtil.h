@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XYUtil : NSObject
 
+- (void)logHaHa;
+
 @end
 
 NS_ASSUME_NONNULL_END

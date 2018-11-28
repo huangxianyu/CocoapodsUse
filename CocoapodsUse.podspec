@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CocoapodsUse"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Just for test"
   s.description  = <<-DESC
                    CocoapodsUse Just for test
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   #s.subspec 'Util' do |ss|
-    #ss.source_files = 'Classes','Classes/**/*.{h.m}'
-    #ss.public_header_files = 'Classes/**/*.h'
+    #ss.source_files = 'Classes','Classes/Util/**/*.{h.m}'
+    #ss.public_header_files = 'Classes/Util/**/*.h'
   #end
 
   #s.subspec 'Router' do |ss|

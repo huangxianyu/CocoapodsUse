@@ -10,4 +10,7 @@
 
 @implementation XYUtil
 
+- (void)logHaHa {
+    NSLog(@"HaHaHa");
+}
 @end
